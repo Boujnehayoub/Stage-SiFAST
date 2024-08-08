@@ -1,0 +1,112 @@
+/* Styles généraux pour votre plugin */
+.mp-data-table {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Styles spécifiques pour les tables de données */
+.mp-data-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.mp-data-table table th,
+.mp-data-table table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styles pour les formulaires */
+#mp-form {
+    max-width: 600px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#mp-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#mp-form input[type="text"],
+#mp-form input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#mp-form input[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#mp-form input[type="submit"]:hover {
+    background-color: #005e8c;
+}
+
+/* Nouveaux styles pour la zone de modification d'administrateur */
+body.admin-php.page-mp-edit-admin #mp-form {
+    max-width: 600px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nouveaux styles pour la zone d'insertion d'administrateur */
+body.admin-php.page-mp-add-admin #mp-form {
+    max-width: 600px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles spécifiques pour les formulaires d'ajout et de modification d'administrateur */
+#mp-form .form-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#mp-form .form-table th,
+#mp-form .form-table td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
+#mp-form .form-table th {
+    width: 30%;
+}
+
+#mp-form .form-table input[type="text"],
+#mp-form .form-table input[type="password"] {
+    width: calc(70% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#mp-form .form-table input[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#mp-form .form-table input[type="submit"]:hover {
+    background-color: #005e8c;
+}
