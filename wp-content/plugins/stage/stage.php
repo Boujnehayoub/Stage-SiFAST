@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) {
 
 // Enqueue custom CSS for the plugin
 function mp_enqueue_styles() {
-    wp_enqueue_style('mp-custom-styles', plugin_dir_url(__FILE__) . 'stage.css');
+    wp_enqueue_style('mp-custom-styles', plugin_dir_url(__FILE__) . 'css/stage.css');
 }
 add_action('wp_enqueue_scripts', 'mp_enqueue_styles');
 
